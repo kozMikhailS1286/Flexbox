@@ -1,0 +1,38 @@
+body {
+    background-color: #333;
+}
+
+#main {
+    display: flex;
+    border: 1px solid blue;
+    width: 610px;
+    height: 610px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: red;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    background-color:black;
+    border-radius: 20px;
+    display: block;
+}
+
+div a {
+    color: white;
+    text-decoration: none;
+}
+
+#main div:hover {
+    background-color: white;
+}
+
+#main div:hover a {
+    color: black;
+}
